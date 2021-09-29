@@ -7,6 +7,8 @@ So i tried to start off a game using GameMaker Studio 2, nothing too special jus
 
 [My boi vibin](./my-boi.png)
 
+[Demo vid since im not sure if you can just plug and play in gamemaker](https://www.youtube.com/watch?v=CGUXNtPOv38)
+
 ## What you learned
 
 So definitely had some trouble since the tutorial was 6 years old, and also GameMaker Studio 1, as opposed to the one I used. This led to lots of trouble either trying to locate features that were used in the tutorial and either weren't in the same spot, or just didnt exist in my free version :(.
