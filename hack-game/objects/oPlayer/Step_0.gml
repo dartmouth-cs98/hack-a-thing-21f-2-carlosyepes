@@ -5,7 +5,7 @@
 
 /* Globals (?)*/
 OtherStats = 0
-StepSpeed = 2 + OtherStats
+StepSpeed = 4 + OtherStats
 ProjectileSpeed = 20
 
 /* Movement */
@@ -28,7 +28,7 @@ image_angle = point_direction(x,y, mouse_x, mouse_y)
 
 /* Spiky boi */
 if mouse_check_button_pressed(mb_left) {
-	SpikeInstance = instance_create_depth(mouse_x, mouse_y, depth, oSpike)
+	SpikeInstance = instance_create_depth(x, y, depth, oSpike)
 	
 	SpikeInstance.speed = ProjectileSpeed
 	SpikeInstance.direction = image_angle;

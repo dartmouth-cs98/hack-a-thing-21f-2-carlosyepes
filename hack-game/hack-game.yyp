@@ -2,8 +2,10 @@
   "resources": [
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},"order":0,},
     {"id":{"name":"sSpike","path":"sprites/sSpike/sSpike.yy",},"order":1,},
+    {"id":{"name":"sBlob","path":"sprites/sBlob/sBlob.yy",},"order":2,},
     {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},"order":0,},
     {"id":{"name":"oSpike","path":"objects/oSpike/oSpike.yy",},"order":1,},
+    {"id":{"name":"oBlob","path":"objects/oBlob/oBlob.yy",},"order":2,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
