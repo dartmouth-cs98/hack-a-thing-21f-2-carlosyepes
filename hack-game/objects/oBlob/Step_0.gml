@@ -28,6 +28,7 @@ if instance_exists(IncomingProjectile) {
 	image_xscale = image_xscale - .2
 	image_yscale = image_xscale
 	if image_xscale <= 0 {
+		instance_create_depth(random(room_width),random(room_height),depth, oBlob)
 		instance_destroy()
 	}
 }

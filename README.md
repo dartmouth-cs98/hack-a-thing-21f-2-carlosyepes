@@ -7,10 +7,6 @@ So i tried to start off a game using GameMaker Studio 2, nothing too special jus
 
 [My boi vibin](./my-boi.png)
 
-## Who Did What?
-
-TODO: who worked on what part?
-
 ## What you learned
 
 So definitely had some trouble since the tutorial was 6 years old, and also GameMaker Studio 1, as opposed to the one I used. This led to lots of trouble either trying to locate features that were used in the tutorial and either weren't in the same spot, or just didnt exist in my free version :(.
@@ -19,6 +15,9 @@ So definitely had some trouble since the tutorial was 6 years old, and also Game
 
 Carlos Yepes
 
+## Does it relate to the a project idea?
+
+Kind of yes. I wanted to create a 2D topdown view, and after some research I figured GameMaker might be my best bet, so I've explored it and so far it seems relatively simple, but could easily get more complex.
 
 ## Acknowledgments
 
