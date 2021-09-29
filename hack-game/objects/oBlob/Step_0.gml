@@ -1,6 +1,16 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+function print(variables) {
+
+var output_string = "";
+
+for (var i = 0; i < argument_count; i++) {
+    output_string += string(argument[i]) + " ";
+}
+
+show_debug_message(output_string);
+}
 
 /* direction facing */
 
@@ -28,7 +38,15 @@ if instance_exists(IncomingProjectile) {
 	image_xscale = image_xscale - .2
 	image_yscale = image_xscale
 	if image_xscale <= 0 {
-		instance_create_depth(random(room_width),random(room_height),depth, oBlob)
-		instance_destroy()
+		if global.KilledEnemies >= global.BlobsKilledBeforeBoss {
+			instance_create_depth(random_range(global.SpawnOffset, room_width - global.SpawnOffset), random_range(global.SpawnOffset, room_height - global.SpawnOffset), depth, oGoon)
+			global.KilledEnemies = 0
+		} else {
+			instance_create_depth(random_range(global.SpawnOffset, room_width - global.SpawnOffset),random_range(global.SpawnOffset, room_height - global.SpawnOffset),depth, oBlob)
+			//instance_create_depth(random(room_width),random(room_height),depth, oBlob)
+			instance_destroy()
+			global.KilledEnemies = global.KilledEnemies + 1
+			print(global.KilledEnemies)
+		}
 	}
 }
